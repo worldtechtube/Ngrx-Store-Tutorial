@@ -1,0 +1,10 @@
+<div class="right" *ngIf="employees">
+
+    <h3>Employees</h3>
+    <ul>
+      <li *ngFor="let employee of employees | async; let i = index">
+        Id: {{employee.id}} | Name: {{employee.name}} | 
+        <button (click)="delEmployee(i)">Delete</button>
+       </li>
+    </ul>  
+  </div>
