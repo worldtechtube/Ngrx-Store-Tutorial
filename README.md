@@ -1,4 +1,4 @@
-# TestApp
+# Angular Ngrx Store Tutorial - Angular State Management [Example]
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.3.
 
